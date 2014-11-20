@@ -104,7 +104,7 @@ def generateWorld(x=11,y=11):
         level=""
         for x in range(0,X+1):
             Rand=randint(0,100)
-            if(Rand<chance):
+            if(Rand<=chance):
                 Rand=1
             else:
                 Rand=0
