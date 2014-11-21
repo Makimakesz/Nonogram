@@ -41,6 +41,8 @@ def Hex(n):
         num='0'+num
     return num
 def highestDiv(n):
+    if(n%5==0):
+        return 5
     ret=-1
     for i in range(2,int(n/2)+1):
         if n%i==0:
